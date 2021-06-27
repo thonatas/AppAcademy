@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Candidate {
+class Candidate {
     var fullName: String
     var course: String
     var ageString: String

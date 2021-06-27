@@ -10,12 +10,10 @@ import Foundation
 struct CandidateManager {
     
     // MARK: - Variables
-    
     var candidates = [Candidate]()
     let filenameString = "AppAcademy_Candidates.csv"
     
     // MARK: - Candidates Functions
-    
     func percentageCandidates(by course: Course) -> Double {
         var total = 0.0
         var partial = 0.0
@@ -48,7 +46,6 @@ struct CandidateManager {
     }
     
     // MARK: - CSV Functions
-    
     mutating func parseToCsv(with fileName: String = "AppAcademy_Candidates.csv") {
         
         guard let inputPath = Bundle.main.url(forResource: fileName, withExtension: nil) else {
@@ -111,7 +108,6 @@ struct CandidateManager {
     }
     
     // MARK: - States Functions
-    
     mutating func distinctStatesQuantity() -> [String] {
         var states: [String] = []
         
@@ -170,7 +166,6 @@ struct CandidateManager {
     }
     
     // MARK: - Instructors Functions
-    
     func filterPossibleInstructors(by course: Course) -> [Candidate] {
         if course.rawValue == "iOS" {
             let possibleInstructors = candidates.filter { $0.isPossibleIosInstructor == true}

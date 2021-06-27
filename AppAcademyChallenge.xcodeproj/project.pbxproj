@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		183032AA26549747000D2508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183032A926549747000D2508 /* AppDelegate.swift */; };
 		183032AC26549747000D2508 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183032AB26549747000D2508 /* SceneDelegate.swift */; };
-		183032B126549747000D2508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183032AF26549747000D2508 /* Main.storyboard */; };
 		183032B326549748000D2508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183032B226549748000D2508 /* Assets.xcassets */; };
 		183032B626549748000D2508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183032B426549748000D2508 /* LaunchScreen.storyboard */; };
 		183032C126549748000D2508 /* AppAcademyChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183032C026549748000D2508 /* AppAcademyChallengeTests.swift */; };
@@ -27,7 +26,6 @@
 		18691DC9265DCF7900AC41A5 /* Screenshot Challenges.png in Resources */ = {isa = PBXBuildFile; fileRef = 18691DC4265DCF7900AC41A5 /* Screenshot Challenges.png */; };
 		18691DCA265DCF7900AC41A5 /* Screenshot Instructors.png in Resources */ = {isa = PBXBuildFile; fileRef = 18691DC5265DCF7900AC41A5 /* Screenshot Instructors.png */; };
 		18691DCB265DCF7900AC41A5 /* Screenshot Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 18691DC6265DCF7900AC41A5 /* Screenshot Map.png */; };
-		18798B112655D14400EAFA71 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18798B102655D14400EAFA71 /* ReadMe.txt */; };
 		187B366B2656829F006A69EC /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B366A2656829F006A69EC /* Course.swift */; };
 		187B36712656B7D6006A69EC /* ChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B36702656B7D6006A69EC /* ChallengesViewController.swift */; };
 		187B36732656B829006A69EC /* CandidatesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B36722656B829006A69EC /* CandidatesListViewController.swift */; };
@@ -65,7 +63,6 @@
 		183032A626549747000D2508 /* AppAcademyChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAcademyChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		183032A926549747000D2508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		183032AB26549747000D2508 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		183032B026549747000D2508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		183032B226549748000D2508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183032B526549748000D2508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183032B726549748000D2508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,7 +86,6 @@
 		18691DC5265DCF7900AC41A5 /* Screenshot Instructors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot Instructors.png"; sourceTree = "<group>"; };
 		18691DC6265DCF7900AC41A5 /* Screenshot Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screenshot Map.png"; sourceTree = "<group>"; };
 		18691DCC265DCF8200AC41A5 /* Simulator Screen Recording - iPhone 11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Simulator Screen Recording - iPhone 11.mp4"; sourceTree = "<group>"; };
-		18798B102655D14400EAFA71 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 		187B366A2656829F006A69EC /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		187B36702656B7D6006A69EC /* ChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewController.swift; sourceTree = "<group>"; };
 		187B36722656B829006A69EC /* CandidatesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidatesListViewController.swift; sourceTree = "<group>"; };
@@ -171,7 +167,6 @@
 				183032A926549747000D2508 /* AppDelegate.swift */,
 				183032AB26549747000D2508 /* SceneDelegate.swift */,
 				1863325C267823CE0071F47C /* TabBar.swift */,
-				188BA3A92679876B00E8DA77 /* InstructorView.swift */,
 				183032B226549748000D2508 /* Assets.xcassets */,
 				183032B426549748000D2508 /* LaunchScreen.storyboard */,
 				183032B726549748000D2508 /* Info.plist */,
@@ -179,7 +174,6 @@
 				183EF7A026581F9C00682F53 /* Mock_Challenge1.csv */,
 				183EF7A2265820F300682F53 /* Mock_Challenge2.csv */,
 				183EF7A42658232E00682F53 /* Mock_Challenge3.csv */,
-				18798B102655D14400EAFA71 /* ReadMe.txt */,
 				18691DC1265DCDBC00AC41A5 /* Screenshots */,
 			);
 			path = AppAcademyChallenge;
@@ -232,8 +226,8 @@
 		183032DB2654977B000D2508 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				183032AF26549747000D2508 /* Main.storyboard */,
 				187B367D26571314006A69EC /* CandidateTableViewCell.swift */,
+				188BA3A92679876B00E8DA77 /* InstructorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -392,8 +386,6 @@
 				18691DCB265DCF7900AC41A5 /* Screenshot Map.png in Resources */,
 				183EF7A3265820F300682F53 /* Mock_Challenge2.csv in Resources */,
 				18691DC8265DCF7900AC41A5 /* Screenshot Graph.png in Resources */,
-				183032B126549747000D2508 /* Main.storyboard in Resources */,
-				18798B112655D14400EAFA71 /* ReadMe.txt in Resources */,
 				183032DF26549A59000D2508 /* AppAcademy_Candidates.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,14 +566,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		183032AF26549747000D2508 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				183032B026549747000D2508 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		183032B426549748000D2508 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
